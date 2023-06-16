@@ -10,4 +10,5 @@ function asNegative(n) {
 
 
 console.log(asNegative(10), 'output should be, -10');
+console.log(asNegative(-10), 'output should be -10');
 
