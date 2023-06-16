@@ -5,7 +5,14 @@
  * @returns {number} `n` in negative form
  */
 function asNegative(n) {
-  // ...
+
+  let result = 0;
+  if (n > 0) {
+    result *= -1;
+  }else {
+    result = n;
+  }
+  return result;
 }
 
 
