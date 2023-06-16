@@ -8,7 +8,7 @@ function asNegative(n) {
 
   let result = 0;
   if (n > 0) {
-    result *= -1;
+    result = n * -1;
   }else {
     result = n;
   }
